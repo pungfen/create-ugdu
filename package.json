@@ -53,9 +53,8 @@
     "onSuccess": "copy ./template-*/**/* ./dist"
   },
   "publishConfig": {
-    "main": "index.js",
     "bin": {
-      "create-ugdu": "index.js"
+      "create-ugdu": "./dist/index.js"
     }
   },
   "prettier": "@enochfe/prettier-config"
