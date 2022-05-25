@@ -1,6 +1,6 @@
 {
   "name": "create-ugdu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.ts",
   "bin": {
     "cua": "./dist/index.js"
