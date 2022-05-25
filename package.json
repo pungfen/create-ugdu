@@ -1,7 +1,7 @@
 {
   "name": "@ugdu/create-ugdu",
   "version": "0.0.1",
-  "main": "src/index.ts",
+  "main": "index.ts",
   "bin": {
     "cua": "./dist/index.js"
   },
@@ -13,20 +13,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xxgjzftd/ugdu.git",
+    "url": "git+https://github.com/pungfen/create-ugdu.git",
     "directory": "packages/cli"
   },
   "bugs": {
-    "url": "https://github.com/xxgjzftd/ugdu/issues"
+    "url": "https://github.com/pungfen/create-ugdu/issues"
   },
-  "homepage": "https://github.com/xxgjzftd/ugdu/tree/main/packages/cli#readme",
+  "homepage": "https://github.com/pungfen/create-ugdu/tree/main/#readme",
   "scripts": {
     "build": "tsup"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "ugdu",
+    "create-ugdu"
+  ],
   "author": "pung <fp94214@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "copy": "^0.3.2",
     "kolorist": "^1.5.1",
     "minimist": "^1.2.6",
     "prompts": "^2.4.2",
